@@ -1,16 +1,28 @@
 # 📚 StudyFlow AI – Smart Study Assistant
 
+StudyFlow AI is a web application that helps students study more efficiently by using Artificial Intelligence to summarize lengthy study notes and generate practice quizzes. It is designed for students who want to revise faster and test their understanding before exams.
+
+---
+
 ## Problem
 
-Students often spend hours reading lengthy notes before exams. StudyFlow AI helps students save time by using AI to instantly generate concise summaries and practice quizzes from their study notes.
+Students often spend a lot of time reading long lecture notes and preparing for exams. It can be difficult to identify the most important information and create practice questions manually.
+
+**StudyFlow AI** solves this problem by allowing users to paste their notes and instantly receive:
+- A concise AI-generated summary
+- A multiple-choice quiz for self-assessment
+
+---
 
 ## Live Demo
 
-https://studyflow-ai-roan.vercel.app
+🌐 https://studyflow-ai-roan.vercel.app
+
+---
 
 ## GitHub Repository
 
-https://github.com/sharjeelaslam77/studyflow-ai
+💻 https://github.com/sharjeelaslam77/studyflow-ai
 
 ---
 
@@ -18,30 +30,28 @@ https://github.com/sharjeelaslam77/studyflow-ai
 
 - 📄 AI-powered note summarization
 - ❓ AI-generated multiple-choice quizzes
-- 🖥️ Clean and responsive user interface
-- ⚡ Fast processing using Google's Gemini AI
+- ⚡ Fast response using Google Gemini AI
+- 🎨 Clean and user-friendly interface
+- 📱 Responsive design
 - 🌐 Live deployment on Vercel
 
 ---
 
 ## AI Feature
 
-The application uses **Google Gemini AI** to:
+This application integrates **Google Gemini AI** to assist students in learning more effectively.
 
-- Summarize long study notes into simple bullet points.
-- Generate multiple-choice quiz questions from the notes.
-
-### Prompt Used for Summary
+### Summary Prompt
 
 ```
 Summarize these study notes into simple, easy-to-understand bullet points.
 ```
 
-### Prompt Used for Quiz
+### Quiz Prompt
 
 ```
 Generate 5 multiple-choice questions from these study notes.
-Each question should have 4 options and clearly indicate the correct answer.
+Each question should have four options and clearly indicate the correct answer.
 ```
 
 ---
@@ -59,27 +69,53 @@ Each question should have 4 options and clearly indicate the correct answer.
 
 ## Screenshots
 
-Add these screenshots:
+### Homepage
 
-1. Homepage
-2. AI Summary
-3. AI Quiz
+*(Insert Homepage Screenshot Here)*
+
+### AI Summary
+
+*(Insert Summary Screenshot Here)*
+
+### AI Quiz
+
+*(Insert Quiz Screenshot Here)*
 
 ---
 
-## How to Run
+## Installation
+
+Clone the repository
 
 ```bash
 git clone https://github.com/sharjeelaslam77/studyflow-ai.git
+```
 
+Go to the project directory
+
+```bash
 cd studyflow-ai
+```
 
+Install dependencies
+
+```bash
 npm install
+```
 
+Create a `.env.local` file
+
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+Run the development server
+
+```bash
 npm run dev
 ```
 
-Then open:
+Open:
 
 ```
 http://localhost:3000
@@ -87,6 +123,32 @@ http://localhost:3000
 
 ---
 
+## Folder Structure
+
+```
+app/
+ ├── api/
+ │   ├── summarize/
+ │   └── quiz/
+ ├── dashboard/
+ └── page.tsx
+```
+
+---
+
+## Future Improvements
+
+- Upload PDF notes
+- Flashcard generation
+- Study progress tracking
+- User authentication
+- Download summaries as PDF
+
+---
+
 ## Author
 
-Sharjeel Aslam
+**Sharjeel Aslam**
+
+Computer Engineering Student  
+Air University Islamabad
