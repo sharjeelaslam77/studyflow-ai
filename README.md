@@ -71,16 +71,15 @@ Each question should have four options and clearly indicate the correct answer.
 
 ### Homepage
 
-*(Insert Homepage Screenshot Here)*
+![Homepage](screenshots/homepage.png)
 
 ### AI Summary
 
-*(Insert Summary Screenshot Here)*
+![Summary](screenshots/summary.png)
 
 ### AI Quiz
 
-*(Insert Quiz Screenshot Here)*
-
+![Quiz](screenshots/quiz.png)
 ---
 
 ## Installation
